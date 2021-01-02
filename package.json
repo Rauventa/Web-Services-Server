@@ -1,0 +1,30 @@
+{
+  "name": "menta-chat-mobile",
+  "version": "1.0.0",
+  "description": "menta chat application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rauventa/Web-servives.git"
+  },
+  "keywords": [
+    "menta",
+    "node",
+    "react"
+  ],
+  "author": "Alex Alecto <rauventa@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rauventa/Web-servives/issues"
+  },
+  "homepage": "https://github.com/Rauventa/Web-servives#readme",
+  "dependencies": {
+    "config": "^3.3.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  }
+}
